@@ -10,7 +10,7 @@ h1, h2, h3 {
   font-family: "Anta";
 }
 
-a {
+button {
   font-weight: bold;
   text-decoration: none;
   transition: .3s;
@@ -88,7 +88,7 @@ a {
 }
 @media (min-width: 300px)
 .container {
-    width: 400px;
+    width: 200px;
 }
 
 .cards {
