@@ -17,7 +17,7 @@
 <div class="banner">
   <h1>Change your life, learn to code</h1>
   <p>Le Wagon brings technical skills to creative people</p>
-  <a href="http://www.google.pt" class="btn-blue">Apply now</a>  
+  <a href="http://www.google.pt" class="btn-blue" id="btalerta">Apply now</a>  
 </div>
   
 
@@ -55,7 +55,11 @@
 <div class="footer">
   <p>Website made with ❤️ at Le Wagon by Joana Marques</p>
 </div>
-
+<script type="text/javascript">
+  document.getElementById("btalerta").addEventListener("click", function() {
+  alert("Not now!");
+});
+</script>
 
 </body>
 </html>

@@ -59,6 +59,8 @@ a {
 	height: 180px;
 	object-fit: cover;
 	border-radius: 4px;
+	display: block;
+	margin: auto;
 }
 
 .card-white p {
